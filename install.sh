@@ -45,7 +45,7 @@ ninja -C build -j 2
 sudo ninja -C build install
 cd ..
 
-git clone https://github.com/raspberrypi/rpicam-apps.git
+git clone https://github.com/babyyoda777/rpicam-apps.git
 cd rpicam-apps/
 meson setup build -Denable_libav=enabled -Denable_drm=enabled -Denable_egl=disabled -Denable_qt=disabled -Denable_opencv=disabled -Denable_tflite=disabled -Denable_hailo=disabled
 meson compile -C build -j 2
